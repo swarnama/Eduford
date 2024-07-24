@@ -1,0 +1,254 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./banner\ \(1\).png);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  min-height: 100px;
+}
+
+header .container{
+  display: flex;
+  justify-content:space-between
+}
+a{
+  text-decoration: none;
+}
+
+.container a img{
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 130px;
+  height: 40px;
+
+}
+.container .left{
+  margin-top: 50px;
+  margin-right: 210px;
+}
+.container .left a{
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+
+}
+ /*  container1 start */
+
+ .container1  {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  color: white;
+ }
+
+.container1 h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+ .container1 p{
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
+  color: white;
+ 
+ }
+
+ .button1{
+  padding: 10px 20px ;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+ }
+   
+ .button1:hover{
+  background-color: rgb(140, 140, 214);
+ }
+
+ .container2{
+  background-color: rgb(251, 252, 253);
+  width: 100%;
+  height: 120vh;
+  margin-top: -30px;
+  padding: 0px 40px;
+ }
+/* container2 start */
+
+ .container2 .set1 {
+   text-align: center;
+
+ }
+
+ .set1 h1{
+  margin-top: 80px;
+  font-size: 40px;
+ }
+
+  p{
+  color: gray;
+ }
+
+ .container2 .set-one{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+ .container2 .set2{
+  
+  background-color: rgb(247, 246, 246);
+  width: 285px;
+  height: 380px;
+  border-radius: 15px;
+  box-shadow: 10px 5px 26px rgb(125, 113, 113);
+  padding-top: 20px;
+  transition: 0.5s ease-in-out;
+ }
+ .container2 .set-one  :hover{
+  background-color: rgb(245, 244, 244);
+  transform: scale(1.1);
+ }
+
+ .set2 h1{
+  text-align: center;
+ }
+
+ .set2 p{
+  font-size: 15px;
+  font-weight: 80;
+  text-align: center;
+  color: gray;
+  padding: 20px;
+ }
+
+ /* container3 starts */
+
+ .container3{
+  margin-top: 100px;
+  text-align: center;
+ }
+
+  .container3 .set2 img{
+   justify-content: space-evenly;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    margin: 30px 30px;
+  }
+
+  /* container4 starts */
+
+  .container4{
+    text-align: center;
+  }
+  
+  .container4 .set2 img{
+    justify-content: space-evenly;
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 0px 30px;
+    
+  }
+  
+  /* container5 starts */
+
+  .container5{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+  }
+
+  .container5 .set1{
+  background-color: white;
+  width: 380px;
+  height: 320px;
+  padding-top: 20px;
+  line-height: 28px;
+  
+  }
+
+  .container5 .set1 h1{
+    font-size: 25px;
+
+  }
+
+  /* container6 starts */
+  .container6 .set1{
+    text-align: center;
+    margin: 0px 60px;
+  }
+ 
+  .container6 .set2-one {
+    width: 450px;
+    height: 250px;
+   background-color: rgb(251, 244, 236);
+    margin: 20px 90px;
+
+  }
+   .set2-one img{
+      height: 50px;
+      width: 50px;
+      border-radius: 50% ;
+    }
+
+    .container6 .set2{
+      display: flex;
+    }
+
+    .container6 .set2 .set2-one {
+      display: flex;
+    }
+    
+    .set2-one h1{
+      margin: 180px 20px 0px 0px;
+    }
+
+    /* container7 starts */
+
+    .container7{
+      background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./banner2.1.jpg);
+      background-size: cover;
+      height: 100vh;
+      background-position: center;
+      background-size: cover;
+      min-height: 100px;
+      color: white;
+    }
+
+     .set1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    /* container8 start */
+
+    .container8 .set1{
+      text-align: center;
+      margin:70px 60px;
+    }
+   
+    footer{
+      text-align: center;
+      color: gray;
+      margin-bottom: 20px;
+    }
+    span{
+      color: blue;
+    }
